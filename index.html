@@ -13,9 +13,9 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <!-- tailwind -->
 <script src="https://cdn.tailwindcss.com"></script>
-
+<!-- fav icon -->
+<link rel="icon" type="Images" href="/Images/fav icon.png">
 <!-- css -->
-
 <style>
     .body{
         font-family: 'Manrope', sans-serif;
@@ -24,17 +24,19 @@
         border-radius: 8px;
         border: 1px solid #FF4240;
         background: #FF4240;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
     }
     .section-title{
         color: #131318;
         text-align: center;
-        font-size: 36px;
         font-weight: 800;
     }
     .section-p{
         color: rgba(19, 19, 24, 0.60);
         text-align: center;
-        font-size: 16px;
         font-weight: 500;
         line-height: 26px;
     }
@@ -43,12 +45,169 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 40px;
+        
     }
+    
 </style>
 
-    <title>Hockey's Metarials</title>
+    <title>Hockey's Metarials Point</title>
 </head>
 <body class="body">
+    <!-- header -->
+    <section class="w-[400px] lg:w-[1140px] container mx-auto">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost font-bold text-2xl lg:text-4xl">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[#424247] text-sm font-normal">
+            <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex gap-10">
+                <a href="#"  class="hidden lg:block"><i class="fa-solid fa-magnifying-glass h-6 w-6 text-2xl "></i></a>
+          <a href="#" class="button py-2 lg:py-3  px-6 lg:px-6 ">Get Ticket</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+<section class="w-[400px] lg:w-[1140px] container mx-auto mt-2 lg:mt-12 ">
     
+    <div class="carousel w-full h-full rounded-3xl">
+        <div id="slide1" class="carousel-item relative w-full h-[190px] lg:h-[400px]">
+          <img src="Images/1.png" class="w-full h-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full h-[190px] lg:h-[400px]">
+          <img src="Images/benar-2.jpg" class="w-full h-full rounded-3xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        </div>
+        <div class="relative p-5 bg-[#131318] w-96 h-36 rounded-2xl lg:-translate-y-40 lg:translate-x-[740px] mt-5 lg:mt-0 ">
+            <h1 class="text-white text-xl font-semibold">Meet all the heroes from the field</h1>
+            <p class="footer-p text-base">Explore our hero section for inspiring stories, <br> innovative solutions, and impactful achievements. Join us today! </p>
+        </div>
+</section>
+
+<!-- Professional Hockeys Club -->
+ <section class="w-[400px] lg:w-[1140px] container mx-auto mt-2 lg:mt-12 lg:mb-16 ">
+
+    <div class="lg:-translate-y-32">
+        <h1 class="section-title text-2xl lg:text-4xl">Professional Hockeys Club</h1>
+        <p class="section-p text-sm lg:text-base mt-2 lg:mt-5">Elite hockey club fostering teamwork, skill, and sportsmanship. Join us for thrilling competitions, <br>camaraderie, and a passion for victory.</p>
+    </div>
+
+    <!-- Radial progress -->
+ <div class="flex flex-col lg:flex-row gap-6 lg:gap-44 mt-10 lg:mt-0">
+    <!-- progress-1-->
+<div class="w-[400px] text-center">
+
+<div class="radial-progress w-36 h-36 text-[#FF4240] " style="--value:95;" role="progressbar"><h1 class="text-[#131318] text-3xl font-bold">87%</h1></div>
+<div>
+    <h2 class="text-[#131318] text-lg font-bold text-center mt-4">Prayer Facility</h2>
+    <p class="text-center mt-4 px-10 lg:px-0">Sacred space for solace, reflection, and connection.</p>
+</div>
+</div>
+<!-- progress-2 -->
+<div class="w-[400px] text-center">
+    <div class="radial-progress w-36 h-36 text-[#49D293]" style="--value:95;" role="progressbar"><h1 class="text-[#131318] text-3xl font-bold">95%</h1></div>
+    <div>
+        <h2 class="text-[#131318] text-lg font-bold text-center mt-4">Experienced Coach</h2>
+        <p class="text-center mt-4 px-10 lg:px-0">Seasoned coach guides excellence with wisdom.</p>
+    </div>
+</div>
+<!-- progress-3 -->
+<div class="w-[400px] text-center">
+    <div class="radial-progress w-36 h-36 text-[#FFB546]" style="--value:90;" role="progressbar"><h1 class="text-[#131318] text-3xl font-bold">90%</h1></div>
+    <div>
+        <h2 class="text-[#131318] text-lg font-bold text-center mt-4">Senior Player</h2>
+        <p class="text-center mt-4 px-10 lg:px-0">Experienced player, skillful leader, game-changer.</p>
+    </div>
+</div>
+<!-- progress-4 -->
+<div class="w-[400px] text-center">
+    <div class="radial-progress w-36 h-36 text-[#4C8DF1] " style="--value:80;" role="progressbar"><h1 class="text-[#131318] text-3xl font-bold">80%</h1></div>
+    <div>
+        <h2 class="text-[#131318] text-lg font-bold text-center mt-4">Training Ground</h2>
+        <p class="text-center mt-4 px-10 lg:px-0">Forge excellence on our dynamic training ground.</p>
+    </div>
+</div>
+</div>
+ </section>
+
+ <!-- Program Sections -->
+ <section class="w-[400px] lg:w-[1140px] container mx-auto mt-2 lg:mt-12 lg:mb-16">
+
+    <h1 class="section-title text-4xl mt-10">Program Sections</h1>
+    <p class="section-p mt-5 ">Diverse program sections for all interests, offering learning, fun, and <br> community engagement. Explore and join us!</p>
+
+    <div class="flex flex-col lg:flex-row gap-8 mt-16 ">
+
+        <!-- section-1 -->
+        
+        <div class="h-[338px] w-[380px] lg:w-[573px]  rounded-2xl" style=" background:url(Images/2.png);   background-repeat: no-repeat;">
+            <div class="pt-24 px-10">
+            <h1 class="text-[#FFF] text-3xl font-bold">Junior Program</h1>
+            <p class="text-[#FFF] text-sm font-medium">Empowering young talents through mentorship, skill development, and a supportive community in our dynamic junior program.</p>
+            <div class="mt-10">
+                <a href="#" class="button py-2 lg:py-3  px-6 lg:px-6 ">Register Now!</a>
+            </div>
+        </div>
+        </div>
+
+        <!-- section-2 -->
+
+        <div class="h-[338px] w-[380px] lg:w-[573px] rounded-2xl" style="background-image:url(Images/3.png); background-repeat: no-repeat;"> 
+            <div class="pt-24 px-10">
+                <h1 class="text-[#FFF] text-3xl font-bold">Teenager Program</h1>
+                <p class="text-[#FFF] text-sm font-medium">Empowering teens: leadership, skill-building, and community engagement. Unleash potential in a supportive, dynamic program for teenagers</p>
+                <div class="mt-10">
+                    <a href="#" class="button py-2 lg:py-3  px-6 lg:px-6 ">Register Now!</a>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+    <!-- section-3 -->
+
+<div class=" w-[380px] bg-cover lg:w-[1140px] h-[338px] lg:h-[450px] rounded-2xl mt-8" style="background-image: url(Images/4.png); background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="pt-14 lg:pt-56 px-10">
+        <h1 class="text-[#FFF] text-3xl font-bold">Professional Program</h1>
+        <p class="text-[#FFF] text-sm font-medium">Cutting-edge professional program empowering growth, <br> fostering expertise, and advancing careers through specialized <br> training and development initiatives.</p>
+        <div class="mt-10">
+            <a href="#" class="button py-2 lg:py-3  px-6 lg:px-6 ">Register Now!</a>
+        </div>
+    </div>
+
+</div>
+
+ </section>
+
+
 </body>
 </html>
